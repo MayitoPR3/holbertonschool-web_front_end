@@ -1,5 +1,4 @@
 /* Targeting the root element, create 2 custom font-family properties font-family-base and font-family-title with the same list of fonts */
-
 :root {
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -15,7 +14,7 @@ body {
 
 /* creates a declaration targeting all 6 levels of heading tags */
 
-h1 h2 h3 h4 h5 h6 {
+h1,h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 

@@ -11,13 +11,9 @@ body {
     min-height: var(--line-height-base);
 }
 
-a {
+a:link {
     color:#161616;
     text-decoration: none;
-}
-
-a:link[href] {
-
 }
 
 

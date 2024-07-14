@@ -11,24 +11,14 @@ body {
     min-height: var(--line-height-base);
 }
 
-a {
+a, a[href]:visited, a[href]:hover, a[href]:active  {
     color:#161616;
     text-decoration: none;
-}
-
-a[href]:visited {
     font: italic;
-}
-
-a[href]:hover {
     text-decoration: underline;
-}
-
-a[href]:active {
     background-color: var(--color-light-grey);
 }
 
-}
 .visually-hidden {
     display: none;
 }

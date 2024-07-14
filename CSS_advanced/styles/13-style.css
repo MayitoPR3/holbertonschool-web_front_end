@@ -11,17 +11,32 @@ body {
     min-height: var(--line-height-base);
 }
 
-a[href]:visited, a[href]:hover, a[href]:active  {
+a {
     color:#161616;
     text-decoration: none;
-    font: italic;
-    text-decoration: underline;
-    background-color: var(--color-light-grey);
 }
+
+
+a[href]:visited {
+    font-style: italic;
+}
+
+
+a[href]:hover {
+    text-decoration: underline;
+}
+
+
+a[href]:active {
+    background-color: var(--color-light-grey);
+
+}
+
 
 .visually-hidden {
     display: none;
 }
+
 .card-category {
     color: #D73953;
 }

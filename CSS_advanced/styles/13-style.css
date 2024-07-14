@@ -17,17 +17,17 @@ a {
 }
 
 
-a:link:visited {
+a:link a:visited {
     font-style: italic;
 }
 
 
-a:link:hover {
+a:link a:hover {
     text-decoration: underline;
 }
 
 
-a:link:active {
+a:link a:active {
     background-color: var(--color-light-grey);
 
 }

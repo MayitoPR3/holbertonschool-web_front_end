@@ -11,7 +11,7 @@ body {
     min-height: var(--line-height-base);
 }
 
-a, a[href]:visited, a[href]:hover, a[href]:active  {
+a[href]:visited, a[href]:hover, a[href]:active  {
     color:#161616;
     text-decoration: none;
     font: italic;
